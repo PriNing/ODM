@@ -17,7 +17,7 @@ Part of the code is inherited from [oCLIP](https://github.com/bytedance/oclip).
 Single-GPU:
 
 ```Bash
-python -u src/training/main_seg_clip.py     \
+python -u src/training/main.py     \
 --save-frequency 20     \
 --report-to tensorboard     \
 --train-data /path/to/data      \
@@ -40,7 +40,7 @@ python -u src/training/main_seg_clip.py     \
 Multi-GPU
 
 ```Bash
-python -u src/training/main_seg_clip.py     \
+python -u src/training/main.py     \
 --save-frequency 20     \
 --report-to tensorboard     \
 --train-data /path/to/data      \
