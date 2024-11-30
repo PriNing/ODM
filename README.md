@@ -1,5 +1,7 @@
 # ODM
 
+(https://github.com/PriNing/ODM/blob/main/img/1.png)
+
 This repository is the official implementation for the following paper:
 
 [ODM: A Text-Image Further Alignment Pre-training Approach for Scene Text Detection and Spotting](https://arxiv.org/abs/2403.00303)
