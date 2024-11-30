@@ -1,6 +1,6 @@
 # ODM
 
-(https://github.com/PriNing/ODM/blob/main/img/1.png)
+![method](https://github.com/PriNing/ODM/blob/main/img/1.png)
 
 This repository is the official implementation for the following paper:
 
