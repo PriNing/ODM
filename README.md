@@ -12,7 +12,7 @@ Part of the code is inherited from [oCLIP](https://github.com/bytedance/oclip).
 
 
 ## Data
-*To be updated*
+Download [SynthText](https://www.robots.ox.ac.uk/~vgg/data/scenetext/)
 
 
 ## Train
@@ -61,12 +61,9 @@ python -u src/training/main.py     \
 --prefix demo \
 ```
 
-## Finetune
-*To be updated*
-
 
 # Visualization
-*To be updated*
+![Visualization](https://github.com/PriNing/ODM/blob/main/img/2.png)
 
 
 # Citation
