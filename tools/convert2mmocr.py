@@ -6,7 +6,7 @@ def convert_param_name(model_path, save_path):
 
     backbone_dict = {}
     for k, v in state_dict['state_dict'].items():
-        if k.startswith('module.visual.') and 'attnpool' not in k:
+        if k.startswith('module.visual.') and 'fpn_head' not in k and 'attnpool' not in k:
             new_k = k[len('module.visual.'):]
             # update parameter name in stem layers
             if new_k.startswith('conv1'):
