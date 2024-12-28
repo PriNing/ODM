@@ -17,6 +17,11 @@ Download [SynthText](https://www.robots.ox.ac.uk/~vgg/data/scenetext/)
 ## ODM model
 Download [ODM](https://drive.google.com/file/d/1ari7YD0qZ6JejCn3IYc-wu0PO4CCXncR/view?usp=sharing)
 
+We provide a script for converting model parameter names：
+```Bash
+python tools/convert2mmocr.py
+```
+
 
 ## Train
 Single-GPU:
