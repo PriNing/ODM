@@ -15,7 +15,7 @@ Part of the code is inherited from [oCLIP](https://github.com/bytedance/oclip).
 Download [SynthText](https://www.robots.ox.ac.uk/~vgg/data/scenetext/)
 
 ## ODM model
-Download [ODM](https://drive.google.com/file/d/1uJHMbeD-nfRYZQ0lJ_4e9TzMluT0iWYH/view?usp=sharing), and extract [RN50](https://drive.google.com/file/d/1ari7YD0qZ6JejCn3IYc-wu0PO4CCXncR/view?usp=sharing) from ODM.
+Download [ODM](https://drive.google.com/file/d/1vzjFhy6LcGB7hXt548qJZby9s1vOSWJB/view?usp=sharing), and extract [RN50](https://drive.google.com/file/d/1ari7YD0qZ6JejCn3IYc-wu0PO4CCXncR/view?usp=sharing) from ODM.
 
 We provide a script for converting model parameter names：
 ```Bash
@@ -71,6 +71,11 @@ python -u src/training/main.py     \
 
 
 # Visualization
+
+```Bash
+sh infer.sh
+```
+
 ![Visualization](https://github.com/PriNing/ODM/blob/main/img/2.png)
 
 
