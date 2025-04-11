@@ -4,14 +4,12 @@ from dataclasses import dataclass
 from typing import Optional, Tuple, Union
 from collections import OrderedDict
 from typing import Tuple, Union
-from .ViT_Transformer import VisionTransformer
 import numpy as np
 import torch
 import torch.nn.functional as F
 from torch import nn
 import math
 from torchvision.ops import roi_align
-from .transformer import TransformerSPTS
 from .position_embedding import PositionEmbeddingLearned, PositionEmbeddingSine
 import time
 from .resnet import ResNet 

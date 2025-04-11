@@ -21,7 +21,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 from src.clip.clip import _transform, load
 from src.clip.model import convert_weights, oCLIP
 from src.training.train import train
-from src.training.data_seg_clip_sec import get_data
+from src.training.data import get_data
 from src.training.params import parse_args
 from src.training.logger import setup_primary_logging, setup_worker_logging
 from src.training.scheduler import cosine_lr
